@@ -1,0 +1,227 @@
+.navigation {
+  text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 45px;
+    font-family: monospace;
+    color: brown;
+    font-weight:900; 
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: darkred;
+  padding-top: 35px;
+
+}
+
+h1, h2, p, h3 {
+  text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: darkgreen;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change the navigation link color on hover */
+li a:hover {
+    background-color: lightgreen;
+  }
+  .active {
+    background-color: peachpuff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+
+.active, .dot:hover {
+  background-color: darkgreen;
+}
+
+
+.menu {
+  width: 80%;
+  background-color: palegoldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.carousel-item {
+  min-height: 550px;
+  max-height: 450px;
+  width: 250px;
+  align-content: center;
+  color: #4CAF50;
+  
+}
+
+.carousel-inner>.active {
+    height: 100px;
+  }
+
+#myCarousel {
+ width: 75%;
+ height: 80%;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+img {
+    align-content: center;
+    height: 550px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: black;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.type, .dessert, .drink {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+
+
+.description {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: fantasy;
+  font-size: larger;
+  font-weight: 900;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+
+  float: left;
+  margin-left: 1%;
+}
+
+label {
+  display: block;
+  font-family: 'Nanum Gothic';
+  padding-bottom: 10px;
+  font-size: 1.25em;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 2px solid #777;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-family: 'Nanum Gothic';
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  width: 400px;
+  background: lightgreen;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+.menubtn {
+  height: 50px;
+  width: 250px;
+  background: lightgreen;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-family: 'Nanum Gothic';
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 610px;
+  margin-right: auto;
+}
+
+button:hover {
+  border: 2px solid black;
+}
